@@ -1,0 +1,12 @@
+[
+        {"id":"1","img":"toptracks/astro1.png","Title":"Coffee Bean","artist":"Travis Scott","plays":"98", "link":"https://www.youtube.com/watch?v=Z6d3BofQqN0"},
+        {"id":"2","img":"toptracks/arabian1.jpg","Title":"Arabian Knights","artist":"Misaal","plays":"90","link":"https://www.youtube.com/watch?v=dxd4tBjdsu4"},
+        {"id":"3","img":"toptracks/colors1.jpeg","Title":"Colors","artist":"Jason Derulo","plays":"85","link":"https://www.youtube.com/watch?v=p6E9R9qv1No"},
+        {"id":"4","img":"toptracks/dancing1.jpg","Title":"Dancing Queen","artist":"ABBA","plays":"80","link":"https://www.youtube.com/watch?v=xFrGuyw1V8s"},
+        {"id":"5","img":"toptracks/doitagain1.jpg","Title":"Do it again","artist":"Pia Mia","plays":"75","link":"https://www.youtube.com/watch?v=cNw8A5pwbVI"},
+        {"id":"6","img":"toptracks/flip1.png","Title":"FLIP THE SWITCH","artist":"Quavo,Drake","plays":"70","link":"https://www.youtube.com/watch?v=vVhddvEjdYo"},
+        {"id":"7","img":"toptracks/nolimit1.jpg","Title":"No limit","artist":"G-Eazy","plays":"65","link":"https://www.youtube.com/watch?v=l_lblj8Cq0o"},
+        {"id":"8","img":"toptracks/search1.jpg","Title":"Search Party","artist":"Sam Bruno","plays":"55","link":"https://www.youtube.com/watch?v=NFGEOloaF6Y"},
+        {"id":"9","img":"toptracks/fml1.jpg","Title":"FML ","artist":" ARIZONA ZERVAS","plays":"50","link":"https://www.youtube.com/watch?v=k8nnNEo-bVs"},
+        {"id":"10","img":"toptracks/dont1.jpg","Title":"Don't Start Now","artist":"Dua Lipa","plays":"40","link":"https://www.youtube.com/watch?v=oygrmJFKYZY"}
+]

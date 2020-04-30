@@ -1,0 +1,58 @@
+[
+    {
+        "id": "1",
+        "name": "Avicci",
+        "src": "topartist/avicci.jpg",
+        "plays" :"8,520 plays"
+
+    },
+    {
+        "id": "2",
+        "name": "Drake",
+        "src": "topartist/drake.jpg",
+        "plays" :"7,619 plays"
+
+    },
+    {
+        "id": "3",
+        "name": "Dua Lipa",
+        "src": "topartist/dua2.jpg",
+        "plays" :"7,120 plays"
+
+    },
+    {
+        "id": "4",
+        "name": "Eminem",
+        "src": "topartist/emi2.jpg",
+        "plays" :"6,118 plays"
+
+    },
+    {
+        "id": "5",
+        "name": "Khalid",
+        "src": "topartist/khalid.jpg",
+        "plays" :"5,520 plays"
+
+    },
+    {
+        "id": "6",
+        "name": "Logic",
+        "src": "topartist/logic.jpg",
+        "plays" :"4,111 plays"
+
+    },
+    {
+        "id": "7",
+        "name": "Stormzy",
+        "src": "topartist/stormzy.jpg",
+        "plays" :"3,811 plays"
+
+    },
+    {
+        "id": "8",
+        "name": "Trever",
+        "src": "topartist/trever.jpg",
+        "plays" :"3,356 plays"
+
+    }
+]
