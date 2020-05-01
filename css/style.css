@@ -118,7 +118,6 @@ li a:hover {
     margin: 0 auto;
 }
 .row{margin-right:-15px;margin-left:-15px}
-
 .heartlove{
     background: url("../hearts/love.png") no-repeat center center/cover;
 }
@@ -132,7 +131,7 @@ li a:hover {
 }
 #together{
     display: flex;
-    width: 150%;
+    width: 100%;
     padding-top: -10px;
 }
 .li-container{
@@ -187,3 +186,42 @@ img {
     margin-left: 19.38px;
     font-size: small;
 }
+.commentboxstlye
+{
+    width: 350px;
+    padding-left: 70px;
+    margin-top: 600px;
+    background-color: grey;
+    margin-left: 100px;
+}
+.commentbox
+{
+    padding-left: 31px;
+    widows: 100px;
+    color: white;
+}
+input[type=text], select, textarea {
+    
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+.container {
+    border-radius: 5px;
+    padding: 20px;
+}
+  
