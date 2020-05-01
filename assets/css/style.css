@@ -1,23 +1,58 @@
+/*
+Table of content
+1. Global Style
+2. Profile Image, banner and name
+3. Menu Style
+4. Top Track stlyes and heart function stlyes
+5. Recently Played Styles
+6. Top Artist Styles
+7. Comment box stlyes
+8. contanct form styles
+*/
+
+
+
+/* Start of section 1*/
 *{
     margin: 0;
     padding: 0;
 }
-.banner {background:url("..//womanstanding.jpg"); background-size: cover;background-position:center;width: 100%;height: 250px;display: flex;}
+.heading p
+{
+    font-size: 25px;
+    padding-left: 10px;
+}
+.margin-top
+{
+    margin-top: 15px;
+}
+.heading p
+{
+    font-size: 25px;
+    padding-left: 10px;
+}
+.row{margin-right:-15px;margin-left:-15px}
+/* End of section 1*/
+/* Start of section 2*/
+.banner {background:url("../profileImages/womanstanding.jpg"); background-size: cover;background-position:center;width: 100%;height: 250px;display: flex;}
 .bannerimg {display: flex;margin-bottom: auto;width: 200px;border-radius: 50%;}
-#name-and-image{
+#name-and-image
+{
     margin-top: -100px;
     display: flex;
     align-items: center;
     margin-left: auto;
 }
-#profilePic{
-    background: url("..//bart.png") no-repeat center center/cover;
+#profilePic
+{
+    background: url("../profileImages/bart.png") no-repeat center center/cover;
     border-radius: 50%;
     width: 150px;
     height: 150px;
     margin-left: 10px;
 }
-.name{
+.name
+{
     align-self: center;
     font-family: sans-serif;
     font-size: 48px;text-shadow: 2px 2px black;
@@ -25,78 +60,80 @@
     margin-bottom: 30px;
     margin-left: 10px;
 }
-ul {
+/* End of section 2*/
+/* Start of section 3*/
+ul 
+{
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
 }
-li {
+li 
+{
     float: left;
 }
-li a {
+li a 
+{
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
-li a:hover {
+li a:hover 
+{
     background-color:transparent;
 }
-.track_img a img {
+/* End of section 3*/
+/* Start of section 4*/
+.track_img a img
+{
     width: 37px;
     height: 42px;
 }
-.fa, .far, .fas {
+.fa, .far, .fas 
+{
     font-size: 25px;
     color: black;
 }
-.tracks {
+.tracks 
+{
     border-bottom: 1px solid silver;
     cursor: pointer;
     padding-top: 5px;
     padding-bottom: 5px;
     height: 55px;
 }
-.tracks:hover {
+.tracks:hover 
+{
     background: #f9f9f9;
 }
-.track_id {
+.track_id 
+{
     font-size: 20px;
     padding-right: 10px;
 }
-.track_btn{
+.track_btn
+{
     width: 5%
 }
-.track_img {
+.track_img 
+{
     width: 10%;
     padding-left: 8px;
     width: 37px;
     height: 42px;
     margin-right: 10px;
 }
-.track_detail{
+.track_detail
+{
     width: 45%;
     padding-left: 10px;
 }
-.track_detail1{
-    width: 35%;
-    padding-left: 5px;
-}
-.track_detail2{
-    width: 30%;
-    padding-left: 5px;
-}
-.track_detail span{
-    margin-top: -20px;
-}
-.track_count{
-    width: 240px;
-    position: relative;
-}
-.chartlist-count-bar-slug {
+.chartlist-count-bar-slug 
+{
     position: absolute;
     left: 0;
     top: 15px;
@@ -106,44 +143,49 @@ li a:hover {
     padding-top: 7px;
     padding-left: 5px;
 }
-.heading p{
-    font-size: 25px;
-    padding-left: 10px;
+.track_detail span
+{
+    margin-top: -20px;
 }
-.margin-top{
-    margin-top: 15px;
-}
-.container{
-    width: 90%;
-    margin: 0 auto;
+.track_count
+{
+    width: 240px;
+    position: relative;
 }
 .row{margin-right:-15px;margin-left:-15px}
-.heartlove{
+.heartlove
+{
     background: url("../hearts/love.png") no-repeat center center/cover;
 }
-.heartunolve{
+.heartunolve
+{
     background: url("../hearts/unlove.png")no-repeat center center/cover;
 }
-.heartlove,.heartunolve{
+.heartlove,.heartunolve
+{
     cursor: pointer;
     width: 24px;
     height: 24px;
 }
-#together{
+#together
+{
     display: flex;
     width: 100%;
     padding-top: -10px;
 }
-.li-container{
+.li-container
+{
     display: flex;
     padding-left: 50px;
 }
-.inside-li-right, .inside-li-left{
+.inside-li-right, .inside-li-left
+{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
 }
-.FlexContainer {
+.FlexContainer 
+{
     display: flex;
     flex-wrap: wrap;
     margin: 29.07px 96.9px;
@@ -156,7 +198,38 @@ li a:hover {
     flex-direction: row;
     flex-flow: row wrap;
 }
-.FlexContainer div {
+/* End of section 4 */
+
+/* Start of section 5 */
+.track_detail1
+{
+    width: 35%;
+    padding-left: 5px;
+}
+.track_detail2
+{
+    width: 30%;
+    padding-left: 5px;
+}
+.margin-top
+{
+    margin-top: 15px;
+}
+/* End of section 5 */
+.container
+{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.heading p
+{
+    font-size: 25px;
+    padding-left: 10px;
+}
+/* Start of section 6*/
+.FlexContainer div 
+{
     width: 242.25px;
     height: 242.25px;
     margin: 0px;
@@ -164,13 +237,15 @@ li a:hover {
     font-family: Arial, Helvetica, sans-serif;
     cursor: pointer;
 }
-img {
+img 
+{
     position: relative;
     filter: grayscale(50%) brightness(70%);
     width: 242.25px;
     height: 242.25px;
 }
-.imageHead {
+.imageHead 
+{
     position: absolute;
     color: white;
     z-index: 1;
@@ -186,12 +261,15 @@ img {
     margin-left: 19.38px;
     font-size: small;
 }
+/* End of section 6*/
+
+/* Start of section 7*/
 .commentboxstlye
 {
     width: 350px;
     padding-left: 70px;
     margin-top: 600px;
-    background-color: grey;
+    background-color: #333;
     margin-left: 100px;
 }
 .commentbox
@@ -200,8 +278,10 @@ img {
     widows: 100px;
     color: white;
 }
-input[type=text], select, textarea {
-    
+/* End of section 7*/
+/* Start of section 8*/
+input[type=text], select, textarea 
+{    
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -209,7 +289,8 @@ input[type=text], select, textarea {
     margin-top: 6px;
     margin-bottom: 16px;
 }
-input[type=submit] {
+input[type=submit] 
+{
     background-color: #4CAF50;
     color: white;
     padding: 12px 20px;
@@ -217,11 +298,17 @@ input[type=submit] {
     border-radius: 4px;
     cursor: pointer;
 }
-input[type=submit]:hover {
+input[type=submit]:hover 
+{
     background-color: #45a049;
 }
-.container {
-    border-radius: 5px;
+.Contactcontainer 
+{
+    width: 300px;
+    margin-left: 10px;
     padding: 20px;
+    background-color: #333;
+    margin-top: 10px;
+    color: white;
 }
-  
+/* End of section 8*/

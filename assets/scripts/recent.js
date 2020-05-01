@@ -1,5 +1,6 @@
+//rently played table
 $(document).ready(function(){
-    $.getJSON("recent.json", function(data){
+    $.getJSON("../../recent.json", function(data){ 
        var tracks_data = '';
        $.each(data, function(key, value){
         tracks_data += '<tr class="tracks">';
@@ -9,6 +10,6 @@ $(document).ready(function(){
         tracks_data += '<td class="track_played">'+value.played+' Minutes ago</td>';
         tracks_data += '</tr>';
        });
-       $('#recent_table').append(tracks_data);
+       $('#recent_table').append(tracks_data); //append to #recent_table
     });
  });

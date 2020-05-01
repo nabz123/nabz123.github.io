@@ -1,12 +1,73 @@
 [
-    {"img":"recent/0.png","title":"00000 ","artist":"A.CHAL","played":"10","link":"https://www.youtube.com/watch?v=Y4XYwvCEUkE"},
-    {"img":"recent/badguy.png","title":"bad guy ","artist":"Billie Eilish","played":"11","link":"https://www.youtube.com/watch?v=DyDfgMOUjCI"},
-    {"img":"recent/bop.png","title":"BOP ","artist":"DaBabby","played":"13","link":"https://www.youtube.com/watch?v=MKr_idr2EwQ"},
-    {"img":"recent/box.jpg","title":"The Box ","artist":"Roddy Rich","played":"20","link":"https://www.youtube.com/watch?v=UNZqm3dxd2w"},
-    {"img":"recent/doja.png","title":"Say so ","artist":"Doja cat","played":"25","link":"https://www.youtube.com/watch?v=uAYG46w1SCA"},
-    {"img":"recent/pullup.jpg","title":"Pull up ","artist":"Lil Mosey","played":"30","link":"https://www.youtube.com/watch?v=MLN4p2ULK0s"},
-    {"img":"recent/saint.jpeg","title":"Roses ","artist":"Saint JHN","played":"36","link":"https://www.youtube.com/watch?v=XHA-QM-q-3E"},
-    {"img":"recent/sale.jpg","title":"Salé ","artist":"Niska","played":"45","link":"https://www.youtube.com/watch?v=KVpeHSX2ZEY"},
-    {"img":"recent/surfaces.jpg","title":"Sunday Best ","artist":"Surfaces","played":"51","link":"https://www.youtube.com/watch?v=Xt3m04Tscc8"},
-    {"img":"recent/whip.jpeg","title":"Whip ","artist":"iiiConic","played":"57","link":"https://www.youtube.com/watch?v=tlOGIQ47Fh0"}
+    {
+        "img":"/assets/recent/0.png",
+        "title":"00000 ",
+        "artist":"A.CHAL",
+        "played":"10",
+        "link":"https://www.youtube.com/watch?v=Y4XYwvCEUkE"
+    },
+    {
+        "img":"/assets/recent/badguy.png",
+        "title":"bad guy ",
+        "artist":"Billie Eilish",
+        "played":"11",
+        "link":"https://www.youtube.com/watch?v=DyDfgMOUjCI"
+    },
+    {
+        "img":"/assets/recent/bop.png",
+        "title":"BOP ",
+        "artist":"DaBabby",
+        "played":"13",
+        "link":"https://www.youtube.com/watch?v=MKr_idr2EwQ"
+    },
+    {
+        "img":"/assets/recent/box.jpg",
+        "title":"The Box ",
+        "artist":"Roddy Rich",
+        "played":"20",
+        "link":"https://www.youtube.com/watch?v=UNZqm3dxd2w"
+    },
+    {
+        "img":"/assets/recent/doja.png",
+        "title":"Say so ",
+        "artist":"Doja cat",
+        "played":"25",
+        "link":"https://www.youtube.com/watch?v=uAYG46w1SCA"
+    },
+    {
+        "img":"/assets/recent/pullup.jpg",
+        "title":"Pull up ",
+        "artist":"Lil Mosey",
+        "played":"30",
+        "link":"https://www.youtube.com/watch?v=MLN4p2ULK0s"
+    },
+    {
+        "img":"/assets/recent/saint.jpeg",
+        "title":"Roses ",
+        "artist":"Saint JHN",
+        "played":"36",
+        "link":"https://www.youtube.com/watch?v=XHA-QM-q-3E"
+    },
+    {
+        "img":"/assets/recent/sale.jpg",
+        "title":"Salé ",
+        "artist":"Niska",
+        "played":"45",
+        "link":"https://www.youtube.com/watch?v=KVpeHSX2ZEY"
+    },
+    {
+        "img":"/assets/recent/surfaces.jpg",
+        "title":"Sunday Best ",
+        "artist":"Surfaces",
+        "played":"51",
+        "link":"https://www.youtube.com/watch?v=Xt3m04Tscc8"
+    },
+    {
+        "img":"/assets/recent/whip.jpeg",
+        "title":"Whip ",
+        "artist":"iiiConic",
+        "played":"57",
+        "link":"https://www.youtube.com/watch?v=tlOGIQ47Fh0"
+    }
 ]
+

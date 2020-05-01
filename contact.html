@@ -1,24 +1,25 @@
 <!DOCTYPE html>
 <html>
     <head>
-    <link href="css/style.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
     <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="contact.html">Contact</a></li>
     </ul>
     </head>
     <body>
-        <div class="container">
+      <!-- Contact Form-->
+        <div class="Contactcontainer">
             <form>
-              <label for="fname">First Name</label>
-              <input type="text" id="Username" name="Username" placeholder="Your First Name"><br>
-              <label for="Phone">Phone Number</label>
-              <input type="text" id="Phone" name="Phone Number" placeholder="Your phone number"><br>
-              <label for="email">Email</label>
+              <label for="fname">First Name:</label>
+              <input type="text" id="Username" name="Username" placeholder="First Name"><br>
+              <label for="Phone">Phone Number:</label>
+              <input type="text" id="Phone" name="Phone Number" placeholder="Phone Number"><br>
+              <label for="email">Email:</label>
               <input type="text" id="Email" name="Email" placeholder="Your email"><br>
               <input type="submit" value="Contact" onclick="contantForm();">
             </form>
           </div>
-          <script src="contact.js"></script>
+          <script src="/assets/scripts/contact.js"></script>
     </body>
 </html>
