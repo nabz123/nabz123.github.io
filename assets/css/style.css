@@ -87,6 +87,7 @@ li a:hover
     background-color:transparent;
 }
 /* End of section 3*/
+
 /* Start of section 4*/
 .track_img a img
 {
@@ -192,7 +193,7 @@ li a:hover
     justify-content: flex-start;
     align-items: flex-start;
     align-content: flex-start;
-    width: 50%;
+    width: 60%;
     height: 40%;
     overflow: auto;
     flex-direction: row;
@@ -201,6 +202,11 @@ li a:hover
 /* End of section 4 */
 
 /* Start of section 5 */
+.track_src
+{
+    width: 25px;
+    height: 25px;
+}
 .track_detail1
 {
     width: 35%;
@@ -312,3 +318,11 @@ input[type=submit]:hover
     color: white;
 }
 /* End of section 8*/
+@media screen and (min-width: 600px) {
+    /* For tablets: */
+    .FlexContainer { width: 100% }  
+}
+@media screen and (min-width: 1024px) {
+    /* For desktop: */
+    .FlexContainer { width: 60% }  
+}
