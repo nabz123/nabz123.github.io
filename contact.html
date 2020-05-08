@@ -4,19 +4,20 @@
     <link href="assets/css/style.css" rel="stylesheet">  
     <title>Contact Page</title>
     </head>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
     <body>
+      <ul>
+      <!-- Menu-->
+        <li><a href="index.html">Home</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
       <!-- Contact Form-->
         <div class="Contactcontainer">
             <form>
-              <label for="fname">First Name:</label>
+              <label id="fname">First Name:</label>
               <input type="text" id="Username" name="Username" placeholder="First Name"><br>
-              <label for="Phone">Phone Number:</label>
+              <label id="Phone">Phone Number:</label>
               <input type="text" id="Phone" name="Phone Number" placeholder="Phone Number"><br>
-              <label for="email">Email:</label>
+              <label id="email">Email:</label>
               <input type="text" id="Email" name="Email" placeholder="Your email"><br>
               <input type="submit" value="Submit" onclick="contantForm();">
             </form>
