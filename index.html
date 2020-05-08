@@ -1,15 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="assets/css/style.css" rel="stylesheet">  
-    <ul>
-        <!-- unordered list as menu -->
-        <li><a href="index.html">Home</a></li>
-        <li><a href="contact.html">Contact</a></li>
-    </ul>
     </head>
     <body>
+        <ul>
+            <!-- unordered list as menu -->
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
         <!-- Apply banner name and name stlyes -->
         <div class="banner"></div>
         <div id="name-and-image">
@@ -73,10 +73,10 @@
         <div class="commentboxstlye">
         <!-- Apply "commentbox" stlye to div -->
             <div class="commentbox">
-                <label for="UserName">Name:</label>
+                <label id="UserName">Name:</label>
                 <input type="text" id="name" name="name"><br>
-                <label for="comment" id="comment">Comment:</label><br>
-                <textarea  id="usercomment" class="comment" name="comment" rows = "5" cols = "28" placeholder="Enter your comment.."></textarea></textarea><br>
+                <label id="comment" id="comment">Comment:</label><br>
+                <textarea  id="usercomment" class="comment" name="comment" rows = "5" cols = "28" placeholder="Enter your comment.."></textarea><br>
                 <input type="submit" value="Submit" onclick="Submit();">
                 <div id="Commentbox"></div>
             </div>

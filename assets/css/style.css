@@ -173,17 +173,27 @@ li a:hover
     display: flex;
     width: 100%;
     padding-top: -10px;
+    padding: left 10px; ;
 }
 .li-container
 {
     display: flex;
-    padding-left: 50px;
+    padding-left: 60px;
 }
-.inside-li-right, .inside-li-left
+.inside-li-right
 {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    padding-left: 10px;
+    padding-top: 7px;
+}
+.inside-li-left
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 10px;
 }
 .FlexContainer 
 {
