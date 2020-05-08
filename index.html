@@ -1,23 +1,22 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="assets/css/style.css" rel="stylesheet">  
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://kit.fontawesome.com/496f1eb6ba.js" crossorigin="anonymous"></script> 
-    <ul>
-        <!-- unordered list as menu -->
-        <li><a href="index.html">Home</a></li>
-        <li><a href="contact.html">Contact</a></li>
-    </ul>
+    <link href="assets/css/style.css" rel="stylesheet">
+    <title>Home Page</title>  
     </head>
     <body>
+        <ul>
+            <!-- unordered list as menu -->
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
         <!-- Apply banner name and name stlyes -->
-      <div class="banner"></div>
-      <div id="name-and-image">
+        <div class="banner"></div>
+        <div id="name-and-image">
         <div id="profilePic"></div>
         <div class="name">Nabeel</div>
-      </div>
+        </div>
         <!-- Apply "container" stlye -->
         <div class="container">
             <div class="row margin-top">
@@ -27,10 +26,7 @@
             </div>
             <div class="row">
                 <div style="width: 70%">
-                    <table id="recent_table">    
-                    </table>    
-                </div>
-                <div>
+                    <table id="recent_table"></table>    
                 </div>
             </div>
         </div>
@@ -39,7 +35,6 @@
         </div>
         <!-- Apply FlexContainer and call artist_container script  -->
         <section class='FlexContainer' id='artist_container'></section>
-
         <!-- Apply inline style to top tracks-->
         <div style="padding-left: 75px" class="margin-top heading">
             <p>Top Tracks</p>
@@ -79,10 +74,10 @@
         <div class="commentboxstlye">
         <!-- Apply "commentbox" stlye to div -->
             <div class="commentbox">
-                <label for="UserName">Name:</label>
+                <label id="UserName">Name:</label>
                 <input type="text" id="name" name="name"><br>
-                <label for="comment" id="comment">Comment:</label><br>
-                <textarea  id="usercomment" class="comment" name="comment" rows = "5" cols = "28" placeholder="Enter your comment.."></textarea></textarea><br>
+                <label id="comment">Comment:</label><br>
+                <textarea  id="usercomment" class="comment" name="comment" rows = "5" cols = "28" placeholder="Enter your comment.."></textarea><br>
                 <input type="submit" value="Submit" onclick="Submit();">
                 <div id="Commentbox"></div>
             </div>
@@ -90,7 +85,7 @@
         <!-- calling all scripts -->
         <script src="/assets/scripts/comment.js"></script>
         <script src="/assets/scripts/recent.js"></script>
-        <script src="/assets/scripts/toptrack.js"></script>
         <script src="/assets/scripts/topArtists.js"></script>
+        <script src="/assets/scripts/toptrack.js"></script>
     </body>
 </html>
