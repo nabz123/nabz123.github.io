@@ -2,7 +2,6 @@
         {
                 "id":"1",
                 "img":"/assets/toptracks/astro1.png",
-                "src":"/assets/playbutton/play-button.png",
                 "Title":"Coffee Bean",
                 "artist":"Travis Scott",
                 "plays":"98", 
@@ -11,7 +10,6 @@
         {
                 "id":"2",
                 "img":"/assets/toptracks/arabian1.jpg",
-                "src":"/assets/playbutton/play-button.png",
                 "Title":"Arabian Knights",
                 "artist":"Misaal",
                 "plays":"90",
@@ -20,7 +18,6 @@
         {
                 "id":"3",
                 "img":"/assets/toptracks/colors1.jpeg",
-                "src":"/assets/playbutton/play-button.png",
                 "Title":"Colors",
                 "artist":"Jason Derulo",
                 "plays":"85",
@@ -30,14 +27,12 @@
                 "id":"4",
                 "img":"/assets/toptracks/dancing1.jpg",
                 "Title":"Dancing Queen",
-                "src":"/assets/playbutton/play-button.png",
                 "artist":"ABBA",
                 "plays":"80",
                 "link":"https://www.youtube.com/watch?v=xFrGuyw1V8s"
         },
         {
                 "id":"5",
-                "src":"/assets/playbutton/play-button.png",
                 "img":"/assets/toptracks/doitagain1.jpg",
                 "Title":"Do it again",
                 "artist":"Pia Mia",
@@ -47,7 +42,6 @@
         {
                 "id":"6",
                 "img":"/assets/toptracks/flip1.png",
-                "src":"/assets/playbutton/play-button.png",
                 "Title":"FLIP THE SWITCH",
                 "artist":"Quavo,Drake",
                 "plays":"70",
@@ -56,7 +50,6 @@
         {
                 "id":"7",
                 "img":"/assets/toptracks/nolimit1.jpg",
-                "src":"/assets/playbutton/play-button.png",
                 "Title":"No limit",
                 "artist":"G-Eazy",
                 "plays":"65",
@@ -66,7 +59,6 @@
                 "id":"8",
                 "img":"/assets/toptracks/search1.jpg",
                 "Title":"Search Party",
-                "src":"/assets/playbutton/play-button.png",
                 "artist":"Sam Bruno",
                 "plays":"55",
                 "link":"https://www.youtube.com/watch?v=NFGEOloaF6Y"
@@ -74,7 +66,6 @@
         {
                 "id":"9",
                 "img":"/assets/toptracks/fml1.jpg",
-                "src":"/assets/playbutton/play-button.png",
                 "Title":"FML ",
                 "artist":" ARIZONA ZERVAS",
                 "plays":"50",
@@ -83,7 +74,6 @@
         {
                 "id":"10",
                 "img":"/assets/toptracks/dont1.jpg",
-                "src":"/assets/playbutton/play-button.png",
                 "Title":"Don't Start Now",
                 "artist":"Dua Lipa",
                 "plays":"48",
